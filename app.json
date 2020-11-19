@@ -1,0 +1,50 @@
+{
+    "expo": {
+        "name": "PeepX",
+        "description": "This project is really great.",
+        "slug": "peepx",
+        "privacy": "unlisted",
+        "sdkVersion": "36.0.0",
+        "platforms": [
+            "ios",
+            "android"
+        ],
+        "version": "0.9.6",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.peepconnect.peepx",
+            "infoPlist": {
+                "NSLocationWhenInUseUsageDescription": "This app uses the location to check other near users.",
+                "NSPhotoLibraryUsageDescription": "This app uses Photo library to share on it's timeline and update your own avatar."
+            }
+        },
+        "android": {
+            "package": "com.peepconnect.peepx",
+            "versionCode": 13,
+            "config": {
+                "googleSignIn": {
+                    "certificateHash": "BC7C280AF5F39CF365A227E1AB2B1E7874C701F3"
+                }
+            }
+        },
+        "extra": {
+            "googleClientIdAndroid": "moc.tnetnocresuelgoog.sppa.o74d85noqku0l54rg80qofgf9nu3keag-85264857548",
+            "googleClientIdIos": "moc.tnetnocresuelgoog.sppa.h7s6t25eibjhcma8m4pq7ds3chn00jv9-85264857548",
+            "jwtTokenStorageKey": "@peepx/token",
+            "userLocationStorageKey": "@peepx/location"
+        }
+    }
+}
