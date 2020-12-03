@@ -4,12 +4,12 @@
         "description": "This project is really great.",
         "slug": "peepx",
         "privacy": "unlisted",
-        "sdkVersion": "36.0.0",
+        "sdkVersion": "38.0.0",
         "platforms": [
             "ios",
             "android"
         ],
-        "version": "0.9.6",
+        "version": "1.0.1",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
         "splash": {
@@ -33,7 +33,7 @@
         },
         "android": {
             "package": "com.peepconnect.peepx",
-            "versionCode": 13,
+            "versionCode": 15,
             "config": {
                 "googleSignIn": {
                     "certificateHash": "BC7C280AF5F39CF365A227E1AB2B1E7874C701F3"
